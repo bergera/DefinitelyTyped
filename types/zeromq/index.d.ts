@@ -65,14 +65,14 @@ export class Socket {
      * @param opt Option
      * @param val Value
      */
-    setsocketopt(opt: number|string, val: any): Socket;
+    setsockopt(opt: number|string, val: any): Socket;
 
     /**
      * Get socket `opt`.
      *
      * @param opt Option number
      */
-    getsocketopt(opt: number|string): any;
+    getsockopt(opt: number|string): any;
 
     /**
      * Async bind.
